@@ -19,5 +19,5 @@ def equation_of_line(e, f, g, h):
 
     # now return equation of line
 
-    return y = m * x + b
+    return Eq(y , m * x + b)
 
