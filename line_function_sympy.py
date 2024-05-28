@@ -21,3 +21,5 @@ def equation_of_line(e, f, g, h):
 
     return Eq(y , m * x + b)
 
+linear = equation_of_line
+
