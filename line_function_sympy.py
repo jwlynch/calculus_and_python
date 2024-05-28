@@ -4,14 +4,14 @@
 
 from sympy import *
 
-def equation_of_line(a, b, c, d):
+def equation_of_line(e, f, g, h):
     # first calculate m (of y = mx + b)
 
-    m = (b - d) / (a - c)
+    m = (f - h) / (e - g)
 
     # now calc b
 
-    b = b - m * a
+    b = f - m * e
 
     # make sympy symbols for line equations
 
